@@ -1,0 +1,135 @@
+/* components/FileUploader.module.css */
+.container {
+    
+    /* z-index: 1000;
+    position: relative;
+    background-color: white;
+    color: black;
+    border-radius: 1.25rem;
+    max-width: 90vw;
+    background-color: white; */
+
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  }
+  
+  .uploader {
+    background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  }
+  
+  .closeButton {
+    /* background: none;
+    border: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem; */
+    position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  }
+  
+  .closeIcon {
+    color: #5C5E65;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .uploadArea {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .uploadBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed #ccc;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .uploadIconText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .uploadIcon {
+    margin-right: 0.5rem;
+  }
+  
+  .dragDrop {
+    text-align: center;
+  }
+  
+  .importButton {
+    background: none;
+    border: none;
+    color: rgb(86, 102, 245);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .fileInfo {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .uploadStatus {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: green;
+  }
+  
+  .uploadButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: rgb(86, 102, 245);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .uploadButton:hover {
+    background-color: #06192c;
+  }

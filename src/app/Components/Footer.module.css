@@ -1,0 +1,76 @@
+/* components/Footer.module.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    background-image: url(https://www.shutterstock.com/image-illustration/timeline-sound-wave-running-audio-260nw-2212784977.jpg);
+    /* background-size: cover; */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    border-top: 2px solid white;
+  }
+  
+  .timelineContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .resizable {
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(135deg, #e0e0e0, #f0f0f0); */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .timelineLabel {
+    font-size: 1rem;
+    color: white;
+  } 
+  
+  .resizableHandle {
+    width: 10px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: ew-resize;
+  }
+  
+  .footerTools{
+    top: 0;
+    background-color: black;
+    /* height: 30px; */
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  

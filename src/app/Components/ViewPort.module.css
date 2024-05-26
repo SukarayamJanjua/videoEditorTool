@@ -1,0 +1,40 @@
+/* components/Viewport.module.css */
+.container {
+    margin-top: 20px;
+    position: relative;
+    height: 60vh; /* 60% of the viewport height */
+    /* Add any other styles as needed */
+    /* background-color: gold; */
+    display: block;
+    align-items: center;
+    background-color: rgb(55, 53, 53);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* justify-content: center; */
+  }
+
+
+  .viewport {
+    position: relative; 
+    top: 10px;
+    margin-right: 0px;
+    /* margin-right: 50px; */
+    text-align: center;
+    width: 66.666%; /* 2/3 of the website width */
+    background-color: black; 
+    /* Add any other styles as needed */
+    height: 400px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+
+  .features{
+    background-color: aquamarine;
+  }
+  
+  
