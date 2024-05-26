@@ -1,3 +1,4 @@
+A web application that enables all video eding tools at a single workspace.May it be mixing audios, clipping, color grading or even professional editing
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
