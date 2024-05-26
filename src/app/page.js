@@ -10,7 +10,7 @@ import FileUploader from "./Components/FileUploader";
 import { useState } from "react";
 
 // import UploadAndTrim from "./UploadAndTrim";
-export default function myApp() {
+export default function MyApp() {
   const [isUploaderVisible, setIsUploaderVisible] = useState(true);
 
   const handleCloseUploader = () => {
